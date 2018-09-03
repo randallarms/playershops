@@ -1,0 +1,18 @@
+# ------------------------------------------------------
+# PLAYER SHOPS Configuration File (config.yml)
+# ------------------------------------------------------
+# Editing the settings in this file will change the way
+# Player Shops works on your server. To reset this file to
+# its default values, simply delete your config.yml and
+# stop/restart your server.
+# ------------------------------------------------------
+# ENABLED | If true, Player Shops is in effect.
+# LANGUAGE | Currently supported languages: English only (for now!)
+# SILENT MODE | If true, most messages will not be relayed to players.
+# PERMISSIONS REQUIREMENT | If true, players must have the proper permissions to use basic Player Shops commands.
+# SHOP LIMITS | Limits the number of shops a player can have open at once. Excludes ops. Default is 10. Set to -1 for infinite (may cause lag).
+# ------------------------------------------------------
+enabled: true
+language: English
+silentMode: false
+limit: 10

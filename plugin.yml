@@ -1,0 +1,23 @@
+name: PlayerShops
+main: com.kraken.playershops.Main
+version: 1.0
+depend: [Vault]
+commands: 
+     shops:
+        description: Controls the Player Shops plugin.
+        usage: /<command> <argument>
+        aliases: [shop, playershop, playershops, pshops, pshop]
+permissions:
+     shops.buy:
+        description: Permission to buy from Player Shops.
+        default: true
+     shops.sell:
+        description: Permission to contract and sell at Player Shops.
+        default: true
+     shops.spawn:
+        description: Permission to spawn new Player Shops by command.
+        default: op
+     shops.item:
+        description: Permission to spawn "Shop Contract" items.
+        default: op
+        
